@@ -1,0 +1,152 @@
+.main_container {
+  width: 100%;
+  overflow-x: hidden;
+  flex-direction: column;
+  display: flex;
+}
+.container_data3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container_data2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container_flex {
+  height: 90vh;
+}
+.navbar_sub {
+  display: none;
+}
+.container_data {
+  text-align: center;
+  height: 70%;
+  width: 50vw;
+  justify-content: center;
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
+}
+
+.img_container {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 50vw;
+  /* background-color: rgb(255, 156, 7); */
+  align-items: center;
+  display: flex;
+}
+
+.container_data h1 {
+  font-weight: 400;
+  text-align: start;
+  display: flex;
+  /* background-color: rgb(210, 247, 210); */
+  margin-bottom: 10px;
+  font-size: 29px;
+  width: 550px;
+  letter-spacing: 0px;
+}
+
+.container_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_data h2 {
+  font-size: 17px;
+  width: 70%;
+
+  text-align: start;
+  font-weight: normal;
+  width: 550px;
+}
+
+.container_data div {
+  justify-content: start;
+  display: flex;
+  margin-top: 20px;
+  width: 550px;
+}
+
+.container_data div button {
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 63, 248);
+  font-weight: 300;
+  border: none;
+  border-radius: 0px;
+}
+
+.container_data div button:hover {
+  cursor: pointer;
+}
+
+.container_data2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 920px) {
+  .container_flex {
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .container_data {
+    width: 100%;
+  }
+  .img_container_sub img {
+    width: 100vw;
+  }
+
+  .container_data2 {
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .container_data3 {
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .img_container {
+    width: 100%;
+  }
+  .btn_bmi {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container_data h1 {
+    width: 90%;
+  }
+  .container_data h2 {
+    width: 90%;
+  }
+  .container_data div {
+    width: 90%;
+    /* background-color: blanchedalmond; */
+  }
+}
+@media (min-width: 920px) and (max-width: 1250px) {
+  .img_container_sub img {
+    width: 95%;
+  }
+  .container_data h1 {
+    width: 90%;
+  }
+  .container_data h2 {
+    width: 90%;
+  }
+  .container_data div {
+    width: 90%;
+  }
+}

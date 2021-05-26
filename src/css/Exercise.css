@@ -1,0 +1,49 @@
+.btn_exercise {
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+  background-color: rgb(38, 38, 247);
+  border: none;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+  .btn_exercise {
+    margin-top: 30px;
+  }
+}
+
+.exercises {
+  text-align: start;
+  list-style: none;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.exercises h1 {
+  font-weight: 500;
+  font-size: 25px;
+  width: fit-content;
+  border-bottom: 1px solid black;
+}
+
+.exercises h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.exercises li {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.exercises_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.exercises h3 {
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,159 @@
+.bmi_main_container {
+  /* height: 90vh; */
+  justify-content: space-around;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: blue; */
+  display: flex;
+  overflow-x: hidden;
+}
+.bmi_main_container_1 {
+  width: 50vw;
+  /* background-color: steelblue; */
+}
+.form-group h1 {
+  /* background-color: burlywood; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bmi_main_container_1_sub {
+  margin-top: 120px;
+  /* background-color: brown; */
+}
+.bmi_main_container_2 {
+  width: 50vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: start;
+  padding-right: 30;
+  /* background-color: rgb(228, 243, 21); */
+  display: flex;
+}
+
+.form-control {
+  width: 40%;
+  padding: 10px;
+
+  margin-left: 10px;
+}
+
+.form-group {
+  padding-top: 30px;
+  /* background-color: aqua; */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 30px;
+  /* margin-left: -220px; */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  /* margin-left: -30px; */
+}
+
+.btn_main {
+  /* background-color: aqua; */
+  /* width: 60%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bmi_main_container_2_sub {
+  margin-top: 180px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.bmi_main_container_2_sub {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  display: flex;
+}
+
+.data_txt {
+  margin-top: -160px;
+}
+.data_txt h1 {
+  /* margin-left: 30px; */
+  font-size: 19px;
+  font-weight: normal;
+}
+.data_bmi {
+  /* margin-left: 30px; */
+}
+.data_bmi h1 {
+  /* margin-left: 10px; */
+  font-size: 19px;
+  font-weight: normal;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.data_bmi h2 {
+  /* margin-left: 10px; */
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.data_bmi h3 {
+  /* margin-left: 10px; */
+  font-size: 17px;
+  font-weight: normal;
+  /* margin-top: 10px; */
+}
+
+@media only screen and (max-width: 500px) {
+  .bmi_main_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .bmi_main_container_2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bmi_main_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .bmi_main_container_1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    /* margin-top: 50px; */
+    /* background-color: steelblue; */
+  }
+  .bmi_main_container_2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+  }
+  .form-control {
+    width: 70vw;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .form-group h1 {
+    /* background-color: burlywood; */
+    text-align: start;
+    display: flex;
+    justify-content: start;
+  }
+  .data_bmi h2 {
+    width: 95%;
+    /* background-color: burlywood; */
+  }
+}
